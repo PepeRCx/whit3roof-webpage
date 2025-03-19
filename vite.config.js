@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     hmr: {
       clientPort: 433,
-      host: "full-humans-dream.loca.lt"
+      host: "vast-fans-change.loca.lt"
     }
   }
 })
