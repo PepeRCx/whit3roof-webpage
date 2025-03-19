@@ -1,6 +1,4 @@
 import NavBar from './components/navbar/NavBar'
-import RotatingText from '../Reactbits/RotatingText/RotatingText'
-import Aurora from '../Reactbits/Aurora/Aurora'
 import SpotlightCard from '../Reactbits/SpotlightCard/SpotlightCard'
 import SplashCursor from '../Reactbits/SplashCursor/SplashCursor'
 
@@ -11,33 +9,17 @@ import StoreIcon from './assets/HugeiconsStore.svg'
 import EcommerceIcon from './assets/HugeiconsShoppingBag.svg'
 import AiIcon from './assets/HugeiconsAi.svg'
 import './App.css'
-import { backIn } from 'framer-motion'
+import Footer from './components/footer/Footer'
 
 function App() {
 
   return (
     <>
       <NavBar />
-      <Aurora 
-        colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
-        blend={0.5}
-        amplitude={1.8}
-        speed={0.5}      
-      />
       <SplashCursor />
       <section className='hero-section'>
           <div className='title'>
-            <h1>Desarrollamos tu</h1>
-            <RotatingText
-              texts={['Sitio', 'App', 'Idea', 'Solución']}
-              mainClassName='main-hero-rotating'
-              splitLevelClassName='hero-rotating-container'
-              elementLevelClassName='hero-rotating-text'
-              staggerFrom={"last"}
-              initial={{ y: "100%" }}
-              staggerDuration={0.025}
-              rotationInterval={2000}
-            />
+            <h1>Desarrollamos tu solución</h1>
           </div>
           <p>Utilizamos tecnología moderna, optimizada y enfocada para los estandares actuales<br/>mejorando la experiencia de usuario y convertir visitas en clientes.</p>
           <p>Si tienes una idea o proyecto en mente no dudes<br/>en contactarnos te ayudamos a resolverlo!</p>
@@ -80,6 +62,8 @@ function App() {
           <p>Buscas integrar inteligencia artificial a tus proyectos? nosotros te ayudamos a integrar cualquier modelo y optimizarlo para las necesidades de tu negocio.</p>
         </SpotlightCard>
       </section>
+
+      <Footer />
     </>
   )
 }
