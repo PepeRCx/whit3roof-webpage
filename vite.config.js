@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     hmr: {
       clientPort: 433,
-      host: "vast-fans-change.loca.lt"
+      host: "whit3roof.com"
     }
   }
 })
