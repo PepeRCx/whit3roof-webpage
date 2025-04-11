@@ -23,7 +23,6 @@ function App() {
 
   return (
     <>
-      <NavBar />
       <SplashCursor />
       <section className='hero-section'>
           <div className='title'>
@@ -71,8 +70,6 @@ function App() {
           <p>Buscas integrar inteligencia artificial a tus proyectos? nosotros te ayudamos a integrar cualquier modelo y optimizarlo para las necesidades de tu negocio.</p>
         </SpotlightCard>
       </section>
-
-      <Footer />
     </>
   )
 }
