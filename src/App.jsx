@@ -13,6 +13,11 @@ import Footer from './components/footer/Footer'
 
 function App() {
 
+  const contactMe = () => {
+    const message = "Hola, estoy interesado en sus servicios, podrían ayudarme?";
+    window.open(`https://wa.me/7841391319?text=${message}`, '_blank')
+  }
+
   return (
     <>
       <NavBar />
@@ -23,7 +28,7 @@ function App() {
           </div>
           <p>Utilizamos tecnología moderna, optimizada y enfocada para los estandares actuales<br/>mejorando la experiencia de usuario y convertir visitas en clientes.</p>
           <p>Si tienes una idea o proyecto en mente no dudes<br/>en contactarnos te ayudamos a resolverlo!</p>
-          <button className='contact-button'>Quiero mi sitio web</button>
+          <button className='contact-button' onClick={contactMe}>Quiero mi sitio web</button>
       </section>
 
       <section className='services-section'>

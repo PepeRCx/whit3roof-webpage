@@ -4,6 +4,11 @@ import ShinyText from '../../../Reactbits/ShinyText/ShinyText'
 
 function NavBar() {
 
+    const contactMe = () => {
+        const message = "Hola, estoy interesado en sus servicios, podrían ayudarme?";
+        window.open(`https://wa.me/7841391319?text=${message}`, '_blank');
+    }
+
     return (
         <header className='header' role='banner'>
             <div className='logo-container'>
@@ -18,7 +23,7 @@ function NavBar() {
             </nav>
 
             <div className='options'>
-                <button>
+                <button onClick={contactMe}>
                     Contacto
                 </button>
             </div>
