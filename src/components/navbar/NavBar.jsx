@@ -12,7 +12,7 @@ function NavBar() {
     return (
         <header className='header' role='banner'>
             <div className='logo-container'>
-                <a href="" className='logo' >
+                <a href="/" className='logo' >
                     <p alt="monogram logo" >Whit3roof</p>
                 </a>
             </div>
