@@ -11,7 +11,10 @@ import AiIcon from './assets/HugeiconsAi.svg'
 import './App.css'
 import Footer from './components/footer/Footer'
 
+import { useNavigate } from 'react-router-dom'
+
 function App() {
+  const navigate = useNavigate();
 
   const contactMe = () => {
     const message = "Hola, estoy interesado en sus servicios, podrían ayudarme?";
@@ -20,7 +23,6 @@ function App() {
 
   return (
     <>
-      <NavBar />
       <SplashCursor />
       <section className='hero-section'>
           <div className='title'>
@@ -46,6 +48,7 @@ function App() {
           <img src={AppsMenuIcon} alt="" />
           <h3>Desarrollo de Aplicaciones</h3>
           <p>Creamos aplicaciones web, de escritorio, celulares y multiplataforma para que tu proyecto esté al alcance de todos.</p>
+          <button className='see-more-button' onClick={() => navigate('/app-development')}>Ver más</button>
         </SpotlightCard>
       </section>
 
@@ -67,8 +70,6 @@ function App() {
           <p>Buscas integrar inteligencia artificial a tus proyectos? nosotros te ayudamos a integrar cualquier modelo y optimizarlo para las necesidades de tu negocio.</p>
         </SpotlightCard>
       </section>
-
-      <Footer />
     </>
   )
 }

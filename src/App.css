@@ -110,6 +110,21 @@
         width: 330px;
         height: 200px;
         padding: 3%;
+
+        & .see-more-button {
+            margin-top: 20px;
+            height: 40px;
+            width: 80px;
+            font-size: 1.0rem;
+            border-radius: 8px;
+            border: none;
+            cursor: pointer;
+            background-color: white;
+        }
+
+        & .see-more-button:hover {
+            background-color: #e4e4e4;
+        }
     }
 }
 
