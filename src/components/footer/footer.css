@@ -1,9 +1,32 @@
+a {
+    text-decoration: none;
+}
+
 .footer-container {
     position: relative;
     height: 20vh;
     margin-top: 3%;
-    background-color: black;
+    color: white;
     border-top: 1px solid rgba(255, 255, 255, 0.125);
     width: 100%;
     z-index: 1000;
+
+    & .contact-info {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        & p {
+            & span {
+                color: #AD49E1;
+            }
+            & a {
+                color: white;
+            }
+        }
+    }
 }
