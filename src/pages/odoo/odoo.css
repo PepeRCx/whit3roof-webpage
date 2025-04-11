@@ -1,0 +1,131 @@
+.main-container {
+    color: white;
+
+    & .hero-section {
+        color: white;
+        padding-inline: 5%;
+
+        & img {
+            width: 800px;
+        }
+        & h1 {
+            font-size: 3.5rem;
+        }
+        & p {
+            color: #bebebe;
+            font-size: 1.2rem;
+        }
+    }
+
+    & .services-section {
+
+        & .custom-spotlight-card-odoo {
+            height: 200px;
+            width: 400px;
+            margin-top: 10px;
+            margin-inline: 1%;
+
+            & img {
+                width: 25px;
+            }
+            & h3 {
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    & .odoo-modules {
+        margin-top: 10%;
+        margin-inline: 5.5%;
+        text-align: center;
+
+        & .apps {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-top: 7%;
+            justify-content: center;
+
+            & .app-card {
+                width: 350px;
+                height: 180px;
+                text-align: start;
+                display: flex;
+                flex-direction: column;
+                margin-inline: 1%;
+                margin-top: 5%;
+
+                & .app-title {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 15px;
+                    margin-bottom: 2%;
+                }
+                & p {
+                    font-size: 1rem;
+
+                    & span {
+                        color: white;
+                        font-size: 1.2rem;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        & h2 {
+            margin-top: 1%;
+            font-size: 2.5rem;
+        }
+        & p {
+            margin-top: 1%;
+            color: #bebebe;
+            font-size: 1.2rem;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .main-container {
+
+        & .hero-section {
+            & img {
+                width: 350px;
+            }
+            & h1 {
+                font-size: 2.0rem;
+                margin-inline: 5%;
+            }
+            & p {
+                margin-inline: 5%;
+                text-align: left;
+            }
+        }
+
+        & .services-section {
+
+            & .custom-spotlight-card-odoo {
+                margin-top: 6%;
+                width: 70%;
+                height: 190px
+            }
+        }
+
+        & .odoo-modules {
+            margin-top: 10%;
+            padding: 10px;
+
+            & h2 {
+                text-align: start;
+            }
+            & p {
+                text-align: start;
+            }
+            & .apps {
+                margin-top: 10%;
+                flex-direction: column;
+            }
+        }
+    }
+}

@@ -48,7 +48,6 @@ function App() {
           <img src={AppsMenuIcon} alt="" />
           <h3>Desarrollo de Aplicaciones</h3>
           <p>Creamos aplicaciones web, de escritorio, celulares y multiplataforma para que tu proyecto esté al alcance de todos.</p>
-          <button className='see-more-button' onClick={() => navigate('/app-development')}>Ver más</button>
         </SpotlightCard>
       </section>
 
@@ -58,6 +57,7 @@ function App() {
           <h3>Software ERP y CRM</h3>
           <p>Administra tu negocio estés donde estés con nuestro sistema basado en Odoo, incluimos capacitaión, soporte y actualizaciones gratuitas.
           </p>
+          <button className='see-more-button' onClick={() => navigate('/odoo')}>Ver más</button>
         </SpotlightCard>
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
           <img src={EcommerceIcon} alt="" />
