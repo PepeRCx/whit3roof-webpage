@@ -112,7 +112,7 @@
         padding: 3%;
 
         & .see-more-button {
-            margin-top: 20px;
+            margin-top: 2%;
             height: 40px;
             width: 80px;
             font-size: 1.0rem;
@@ -154,8 +154,8 @@
 
         & .custom-spotlight-card {
             margin-top: 6%;
-            max-width: 260px;
-            height: 250px;
+            width: 70%;
+            height: 220px;
             padding: 6%;
             align-content: center;
         }
