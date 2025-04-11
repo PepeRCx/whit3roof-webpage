@@ -13,12 +13,19 @@ import PdvIcon from '../../assets/icons/pdv.svg'
 
 import ContactButton from '../../components/buttons/ContactButton'
 import SpotlightCard from '../../../Reactbits/SpotlightCard/SpotlightCard';
+import { useEffect } from 'react'
 
 function Odoo() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+
+        return null;
+    });
+
     return (
         <div className='main-container'>
             <section className='hero-section'>
-                <h1>Impulsa el Crecimiento de tu Empresa con Nuestro Software ERP Integral</h1>
+                <h1>Impulsa el crecimiento de tu empresa con nuestro software ERP Integral</h1>
                 <p>Descubre una solución avanzada de gestión empresarial que optimiza tus procesos, integra todas tus áreas y mejora la toma de decisiones.</p>
                 <ContactButton text="Prueba gratis" message="Hola, me interesa impulsar el crecimiento de mi empresa, podrían ayudarme?" />
                 <img src={OdooImg} alt="" />
