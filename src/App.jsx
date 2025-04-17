@@ -62,7 +62,8 @@ function App() {
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
           <img src={EcommerceIcon} alt="" />
           <h3>Ecommerce</h3>
-          <p>Expande tu negocio con una tienda online moderna y lista para generar ventas con un CMS para administrar su contenido sin necesidad de conocimientos técnicos.</p>
+          <p>Expande tu negocio con una tienda online personalizable, moderna y lista para generar ventas con un CMS para administrar su contenido.</p>
+          <button className='see-more-button' onClick={() => navigate('ecommerce')}>Ver más</button>
         </SpotlightCard>
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
           <img src={AiIcon} alt="" />
