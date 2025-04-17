@@ -125,6 +125,10 @@
             & .apps {
                 margin-top: 10%;
                 flex-direction: column;
+
+                & .app-card {
+                    width: 95%;
+                }
             }
         }
     }

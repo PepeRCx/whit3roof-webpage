@@ -13,8 +13,8 @@ createRoot(document.getElementById('root')).render(
     <Routes>
       <Route path='/' element={<Layout />}>
         <Route index element={<App />} />
-        <Route path='/app-development' element={<AppDevelopment />} />
-        <Route path='/odoo' element={<Odoo />} />
+        <Route path='app-development' element={<AppDevelopment />} />
+        <Route path='odoo' element={<Odoo />} />
       </Route>
     </Routes>
   </BrowserRouter>
