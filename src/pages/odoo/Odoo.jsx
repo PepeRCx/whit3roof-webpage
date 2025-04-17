@@ -8,8 +8,11 @@ import CrmIcon from '../../assets/icons/crm.svg'
 import SalesIcon from '../../assets/icons/invoice.svg'
 import InventoryIcon from '../../assets/icons/inventory.svg'
 import EmployeeIcon from '../../assets/icons/employee.svg'
-import StoreIcon from '../../assets/icons/store.svg'
+import WebIcon from '../../assets/icons/web.svg'
 import PdvIcon from '../../assets/icons/pdv.svg'
+import ExportIcon from '../../assets/icons/export.svg'
+import ManagementIcon from '../../assets/icons/management.svg'
+import FileIcon from '../../assets/icons/file.svg'
 
 import ContactButton from '../../components/buttons/ContactButton'
 import SpotlightCard from '../../../Reactbits/SpotlightCard/SpotlightCard';
@@ -76,23 +79,44 @@ function Odoo() {
                     <div className='app-card'>
                         <div className='app-title'>
                             <img src={EmployeeIcon} alt="employees icon" />
-                            <p><span>Empleados</span></p>
+                            <p><span>Recursos humanos</span></p>
                         </div>
                         <p>Centralice la información del personal, gestiona contratos, ausencias y evaluaciones, facilitando la administración eficiente del talento humano.</p>
                     </div>
                     <div className='app-card'>
                         <div className='app-title'>
-                            <img src={StoreIcon} alt="employees icon" />
-                            <p><span>Ecommerce</span></p>
+                            <img src={WebIcon} alt="web icon" />
+                            <p><span>Sitio web</span></p>
                         </div>
-                        <p>Cree su catálogo en línea, integrado con inventario, ventas y pagos en línea, ofreciendo una experiencia de compra fluida y profesional.</p>
+                        <p>Cree y administre su sitio web fácilmente con un editor visual, sin necesidad de conocimientos técnicos.</p>
                     </div>
                     <div className='app-card'>
                         <div className='app-title'>
-                            <img src={PdvIcon} alt="employees icon" />
-                            <p><span>Punto de Venta</span></p>
+                            <img src={PdvIcon} alt="pos icon" />
+                            <p><span>Punto de venta</span></p>
                         </div>
                         <p>Ofrece ventas rápidas en tienda física, integradas con inventario, clientes y pagos, funcionando incluso sin conexión a internet.</p>
+                    </div>
+                    <div className='app-card'>
+                        <div className='app-title'>
+                            <img src={ExportIcon} alt="export icon" />
+                            <p><span>Manejo de datos</span></p>
+                        </div>
+                        <p>Importa o exporta datos desde Excel para facilitar migraciones, respaldos o integraciones con otros sistemas sin complicaciones.</p>
+                    </div>
+                    <div className='app-card'>
+                        <div className='app-title'>
+                            <img src={ManagementIcon} alt="management icon" />
+                            <p><span>Gestión de usuarios y permisos</span></p>
+                        </div>
+                        <p>Controla el acceso con permisos detallados por usuario o grupo, protegiendo la información y asegurando una operación eficiente.</p>
+                    </div>
+                    <div className='app-card'>
+                        <div className='app-title'>
+                            <img src={FileIcon} alt="file icon" />
+                            <p><span>Reportes detallados</span></p>
+                        </div>
+                        <p>Genera reportes personalizables en cada módulo, con filtros avanzados y exportación en PDF o Excel para mejor toma de decisiones.</p>
                     </div>
                 </section>
                 <ContactButton

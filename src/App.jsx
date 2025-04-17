@@ -55,14 +55,15 @@ function App() {
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
           <img src={StoreIcon} alt="" />
           <h3>Software ERP y CRM</h3>
-          <p>Administra tu negocio estés donde estés con nuestro sistema basado en Odoo, incluimos capacitaión, soporte y actualizaciones gratuitas.
+          <p>Administra tu negocio estés donde estés con nuestro sistema basado en Odoo, incluimos capacitación, soporte y actualizaciones gratuitas.
           </p>
           <button className='see-more-button' onClick={() => navigate('/odoo')}>Ver más</button>
         </SpotlightCard>
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
           <img src={EcommerceIcon} alt="" />
           <h3>Ecommerce</h3>
-          <p>Expande tu negocio con una tienda online moderna y lista para generar ventas con un CMS para administrar su contenido sin necesidad de conocimientos técnicos.</p>
+          <p>Expande tu negocio con una tienda online personalizable, moderna y lista para generar ventas con un CMS para administrar su contenido.</p>
+          <button className='see-more-button' onClick={() => navigate('ecommerce')}>Ver más</button>
         </SpotlightCard>
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
           <img src={AiIcon} alt="" />

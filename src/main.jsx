@@ -7,6 +7,7 @@ import Layout from './components/Layout.jsx'
 import App from './App.jsx'
 import AppDevelopment from './pages/app_development/AppDevelopment.jsx'
 import Odoo from './pages/odoo/Odoo.jsx'
+import Ecommerce from './pages/ecommerce/Ecommerce.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
         <Route index element={<App />} />
         <Route path='app-development' element={<AppDevelopment />} />
         <Route path='odoo' element={<Odoo />} />
+        <Route path='ecommerce' element={<Ecommerce />} />
       </Route>
     </Routes>
   </BrowserRouter>
