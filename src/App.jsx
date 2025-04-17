@@ -55,7 +55,7 @@ function App() {
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
           <img src={StoreIcon} alt="" />
           <h3>Software ERP y CRM</h3>
-          <p>Administra tu negocio estés donde estés con nuestro sistema basado en Odoo, incluimos capacitaión, soporte y actualizaciones gratuitas.
+          <p>Administra tu negocio estés donde estés con nuestro sistema basado en Odoo, incluimos capacitación, soporte y actualizaciones gratuitas.
           </p>
           <button className='see-more-button' onClick={() => navigate('/odoo')}>Ver más</button>
         </SpotlightCard>
