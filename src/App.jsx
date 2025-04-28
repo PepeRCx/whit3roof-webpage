@@ -43,9 +43,9 @@ function App() {
           <p>Desarrollamos sitios web modernos, rápidos y responsivos para impulsar tu presencia en línea y mejorar la experiencia de tus usuarios.</p>
         </SpotlightCard>
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-          <img src={AppsMenuIcon} alt="" />
-          <h3>Desarrollo de Aplicaciones</h3>
-          <p>Creamos aplicaciones web, de escritorio, celulares y multiplataforma para que tu proyecto esté al alcance de todos.</p>
+          <img src={AiIcon} alt="" />
+          <h3>Soluciones con IA</h3>
+          <p>Buscas integrar inteligencia artificial a tus proyectos? nosotros te ayudamos a integrar cualquier modelo y optimizarlo para las necesidades de tu negocio.</p>
         </SpotlightCard>
       </section>
 
@@ -64,9 +64,10 @@ function App() {
           <button className='see-more-button' onClick={() => navigate('ecommerce')}>Ver más</button>
         </SpotlightCard>
         <SpotlightCard className="custom-spotlight-card" spotlightColor="rgba(0, 229, 255, 0.2)">
-          <img src={AiIcon} alt="" />
-          <h3>Soluciones con IA</h3>
-          <p>Buscas integrar inteligencia artificial a tus proyectos? nosotros te ayudamos a integrar cualquier modelo y optimizarlo para las necesidades de tu negocio.</p>
+          <img src={AppsMenuIcon} alt="" />
+          <h3>Desarrollo de Aplicaciones</h3>
+          <p>Creamos y publicamos aplicaciones Android, IOS o multiplataforma para tu proyecto.</p>
+          <button className='see-more-button' onClick={() => navigate('app-development')}>Ver más</button>
         </SpotlightCard>
       </section>
     </>
